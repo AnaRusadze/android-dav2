@@ -23,7 +23,7 @@ class Point(private var xCoord: Float, private var yCoord: Float){
     }
 
     fun getXCoordSymmetry(): String {
-        this.xCoord = -this.xCoord
+        this.yCoord = -1 * this.yCoord
         return this.toString()
     }
 
